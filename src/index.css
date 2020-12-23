@@ -12,6 +12,11 @@ a {
   outline: none;
 }
 
+span{
+  display: block;
+  width: fit-content;
+}
+
 body {
   font-family: 'Mukta', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -99,6 +104,16 @@ input:disabled{
   font-size: 14px;
 }
 
+.medium_14{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.medium_16 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
 .medium_18 {
   font-weight: 500;
   font-size: 18px;
@@ -126,3 +141,20 @@ input:disabled{
 }
 
 /* LAYOUT */
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+th,td{
+  text-align: left;
+  font-weight: 400;
+}
+
+th{
+  color: #606077;
+  border-bottom: 1px solid #606077;
+  padding-bottom: 10px;
+}

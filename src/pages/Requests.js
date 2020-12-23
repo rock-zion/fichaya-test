@@ -15,14 +15,16 @@ const Requests = (props) => {
             path={`${props.match.path}`}
             component={RequestDetails}
           />
+
           <Route
             exact
             path={`${props.match.path}/generateinvoice`}
             component={GenerateInvoice}
           />
+
           <Route
             exact
-            path={`${props.match.path}/createinvoice`}
+            path={`${props.match.path}/generateinvoice/create`}
             component={CreateInvoice}
           />
         </Switch>

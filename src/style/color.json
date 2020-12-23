@@ -5,5 +5,7 @@
   "altBlue": "#01037C",
   "background": "#F6F6FF",
   "grey": "#EDEDED",
-  "orange": "#FF991F"
+  "orange": "#FF991F",
+  "altGrey": "#373737",
+  "red": "#F6431E"
 }

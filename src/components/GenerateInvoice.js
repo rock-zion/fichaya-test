@@ -150,10 +150,15 @@ const GenerateInvoice = (props) => {
         </FormContainer>
       </div>
       <div className='generate_invoice_btn_container grid_1_1'>
-        <div className="width_100"></div>
-        <div className="btn_wrapper grid_1_1">
-          <button className="btn btn_secondary normal_16">CANCEL</button>
-          <Link to={`${props.match.url}/createinvoice`} className="btn btn_primary normal_16 create_invoice_link">CREATE INVOICE</Link>
+        <div className='width_100'></div>
+        <div className='btn_wrapper grid_1_1'>
+          <button className='btn btn_secondary normal_16'>CANCEL</button>
+          <Link
+            to={`${props.match.url}/create`}
+            className='btn btn_primary normal_16 create_invoice_link'
+          >
+            CREATE INVOICE
+          </Link>
         </div>
       </div>
     </GenerateInvoiceStyle>
