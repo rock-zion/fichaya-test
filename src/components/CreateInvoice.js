@@ -19,7 +19,7 @@ const CreateInvoice = (props) => {
           <div>
             <span className='sender_wrapper'>
               <span className=''>FROM</span>
-              <span className=''>FICHAYA</span>
+              <span className='receiver'>FICHAYA</span>
               <span className='email'>finance@fichaya.com</span>
               <span className=''>+2348177141611</span>
             </span>
