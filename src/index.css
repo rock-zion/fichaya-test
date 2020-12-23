@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px 0;
+  outline: none;
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+select, input {
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #dea000;
+  background-color: #ffffff;
+  padding: 24px;
+  outline: none;
+}
+
+select{
+  padding: 0 24px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::placeholder{
+  font-size: 14px;
+}
+
+input:disabled{
+  background: #EDEDED;
+  border: none;
+}
+
+.input_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.btn{
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 0;
+  outline: none;
+}
+
+.btn_primary{
+  background: #DEA000;
+  color: #FFFFFF;
+}
+
+.btn_secondary{
+  background: rgba(255,255,255,0);
+  color: #01037C;
+  border: 1px solid #01037C;
+}
+
+/* FONTS */
+
+.normal_18 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.normal_16 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.normal_14 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.medium_18 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* FONTS */
+
+/* LAYOUT */
+
+.width_100{
+  width: 100%
+}
+
+.block{
+  display: block;
+}
+
+.grid_1_1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.spacing_bottom_20{
+  margin-bottom: 20px;
+}
+
+/* LAYOUT */
