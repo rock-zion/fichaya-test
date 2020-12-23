@@ -7,7 +7,7 @@ const CreateInvoice = (props) => {
   return (
     <CreateInvoiceStyle>
       <span className='section_label normal_18'>Generate invoice</span>
-      <span className='prompt block normal_14'>ENTER INVOICE INFO</span>
+      <span className='prompt block normal_14'>PREVIEW YOUR INVOICE</span>
       <section className='invoice'>
         <div className='heading'>
           <img src={logo} alt='' />
