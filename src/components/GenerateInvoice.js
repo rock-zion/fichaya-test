@@ -103,7 +103,7 @@ const GenerateInvoice = (props) => {
                 disabled={false}
               />
             </span>
-            <span>
+            <span className="vat_container"> 
               <Select
                 handleChange={handleSelectChange}
                 type='numbeer'

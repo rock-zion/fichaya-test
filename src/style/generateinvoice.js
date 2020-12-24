@@ -25,4 +25,8 @@ export const GenerateInvoiceStyle = styled.div`
     display: flex;
     justify-content: center
   }
+
+  .vat_container{
+    width: 100%;
+  }
 `

@@ -29,6 +29,12 @@ function App() {
           }}
         />
         <Route
+          path='/payments'
+          render={() => {
+            return <Redirect to='/requests' component={Requests} />;
+          }}
+        />
+        <Route
           path='/customers'
           render={() => {
             return <Redirect to='/requests' component={Requests} />;

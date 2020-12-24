@@ -39,6 +39,8 @@ select, input {
 
 select{
   padding: 0 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 input::-webkit-outer-spin-button,
@@ -157,4 +159,15 @@ th{
   color: #606077;
   border-bottom: 1px solid #606077;
   padding-bottom: 10px;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+select, [type="date"] {
+  background:#fff url(./assets/icons/chevron_down_black.svg)  90% 50% no-repeat ;
 }
